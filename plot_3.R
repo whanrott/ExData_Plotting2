@@ -12,7 +12,7 @@ call_nei_scc_summary <- function() {
   return(nei_scc_summary);
 }
 
-#nei_scc_summary <- call_nei_scc_summary()
+nei_scc_summary <- call_nei_scc_summary()
 
 ## Assignment Question 3
 ## Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad)
@@ -37,7 +37,7 @@ q3 <- ggplot(bm_a, aes(Year, Emissions/1000), fill = Type)
 print(q3 +
         geom_line() +
         facet_grid(. ~ Type) +
-        ggtitle("M2.5 emissions for Baltimore, MD, USA") +
+        ggtitle("PM2.5 emissions for Baltimore, MD, USA") +
         xlab("Year") +
         ylab("Thousand Tons of PM2.5 particulate matter")
       )

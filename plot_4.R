@@ -10,7 +10,7 @@ call_nei_scc_summary <- function() {
   return(nei_scc_summary);
 }
 
-#nei_scc_summary <- call_nei_scc_summary()
+nei_scc_summary <- call_nei_scc_summary()
 
 ## Assignment Question 4
 ## Across the United States, how have emissions from coal combustion-related sources changed

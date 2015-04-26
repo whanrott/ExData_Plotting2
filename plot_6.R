@@ -12,7 +12,7 @@ call_nei_scc_summary <- function() {
   return(nei_scc_summary);
 }
 
-#nei_scc_summary <- call_nei_scc_summary()
+nei_scc_summary <- call_nei_scc_summary()
 
 ## Assignment Question 6
 ## Compare emissions from motor vehicle sources in Baltimore City with emissions from motor

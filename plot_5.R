@@ -10,7 +10,7 @@ call_nei_scc_summary <- function() {
   return(nei_scc_summary);
 }
 
-#nei_scc_summary <- call_nei_scc_summary()
+nei_scc_summary <- call_nei_scc_summary()
 
 ## Assignment Question 5
 ## How have emissions from motor vehicle sources changed from 1999-2008 in Baltimore City?

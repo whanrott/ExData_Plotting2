@@ -10,7 +10,7 @@ call_nei_scc_summary <- function() {
   return(nei_scc_summary);
 }
 
-#nei_scc_summary <- call_nei_scc_summary()
+nei_scc_summary <- call_nei_scc_summary()
 
 ## Assignment Question 1
 ## Have total emissions from PM2.5 decreased in the United States from 1999 to 2008?
